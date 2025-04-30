@@ -18,7 +18,7 @@ int main() {
     int n1, n2, n3, num;
 
     printf("Enter the postfix expression: ");
-    scanf("%s", exp);
+    scanf("%s", &exp);
 
     e = exp;
     while(*e != '\0') {
